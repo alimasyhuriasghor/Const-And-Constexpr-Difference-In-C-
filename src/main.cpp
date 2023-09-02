@@ -5,8 +5,8 @@
 // Function constant expression must be declared with constexpr not const the reason why a function needed to declared as constexpr is because to evaluate or calculate the result to Compilation Time NOT DURING RUNTIME 
 
 // Note that using constant parameter isn't really necessary the reason i am using it just to tell the programmer that the value cannot be changed.and by the way without using "const" it will still a Compile Time Constant
-constexpr int facotrial(const int facotrial_number) {
-    return facotrial_number == 1 ? 1 : facotrial_number * facotrial(facotrial_number - 1); // <- this is a recursion constant expression function and the value can be known during compilation time.recursion function is a function that calls it self
+constexpr int factorial(const int factorial_number) {
+    return factorial_number == 1 ? 1 : factorial_number * factorial(factorial_number - 1); // <- this is a recursion constant expression function and the value can be known during compilation time.recursion function is a function that calls it self
 }
 
 // Note that using constant parameter isn't really necessary the reason i am using it just to tell the programmer that the value cannot be changed.and by the way without using "const" it will still a Compile Time Constant
@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
     constexpr int result2 = (num1 > num2) ? num1 : num2; // <- all variables that is declared with constexpr will be known by the compiler
 
     // Function Constant Expression Result
-    constexpr int result3 = facotrial(5);
+    constexpr int result3 = factorial(5);
     constexpr int result4 = sum(5,5);
 
     PRINT(result3); // <- note that after i am printing the value to the console it will still a constant run time not compile time constant the reason why constexpr or const useful are useful is to know the value and evaluated the value during Compile Time not during Runtime 
