@@ -1,0 +1,38 @@
+{
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Dobri Next -A00- Black",
+    "terminal.integrated.fontSize": 15,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+      "activityBar.foreground": "#00fbff",
+      "activityBarBadge.background": "#ea00ff",
+      "activityBarBadge.foreground": "#0f0f0f",
+    // Border separating the title bar from the rest of the editor
+    "titleBar.border": "#bf00ff",
+    // Border color to separate Tabs from each other
+    "tab.border": "#18222D",
+    // Border color on the top separating to the editor (terminal)
+    "panel.border": "#18222D",
+    // Border color on the side separating the editor
+    "sideBar.border": "#ea00ff",
+    // Border color with the Side Bar
+    "activityBar.border": "#ea00ff",
+    // Border color separating the Status Bar and editor
+    "statusBar.border": "#ea00ff",
+    // Border color to separate multiple editor groups from each other
+    "editorGroup.border": "#ffff00",
+    // Border color of the editor group title header when tabs are enabled
+    "editorGroupHeader.tabsBorder": "#18222D"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffea00",
+    "keywords": "#00FFFF",
+    "strings": "#ff00ea",
+    "types": "#00ff22",
+    "functions": "#fffb00",
+    "numbers": "#00ff1a",
+    "variables": "#fff700"
+}
+}
