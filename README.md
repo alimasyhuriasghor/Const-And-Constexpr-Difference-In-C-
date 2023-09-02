@@ -3,13 +3,15 @@ Go To My Src Folder If You Guys Want To See My Source Code.This Repository Is Al
 Looking For A References Lesson Source That I've Got?
 you can either check it on
 
-<a href="learncpp.com">leanrcpp.com.This is The Offical Website That I've Just Learned Previously</a>
+<a href="https://www.learncpp.com/cpp-tutorial/compile-time-constants-constant-expressions-and-constexpr/">leanrcpp.com.This is The Offical Website That I've Just Learned Previously</a>
 
 
 or you could check on
 
-<a href="learn.microsoft.com">learn.microsoft.com.This is the offical C++ website from microsoft</a
+<a href="https://learn.microsoft.com/en-us/">learn.microsoft.com.This is the offical C++ website from microsoft</a>
+
+
 or the last offical website that you could learn is on
 
 
-<a href="cppreference.com">learn.microsoft.com.This is The Offical C++</a>
+<a href="https://en.cppreference.com/w/cpp/language/constexpr">cpprefence.com.This is The Offical C++</a>
