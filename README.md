@@ -8,7 +8,7 @@ you can either check it on
 
 or you could check on
 
-<a href="https://learn.microsoft.com/en-us/">learn.microsoft.com.This is the offical C++ website from microsoft</a>
+<a href="https://learn.microsoft.com/en-us/cpp/cpp/constexpr-cpp?view=msvc-170">learn.microsoft.com.This is the offical C++ website from microsoft</a>
 
 
 or the last offical website that you could learn is on
